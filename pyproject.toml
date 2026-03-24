@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name = "best2Dsolver_diffusion2d"
+authors = [
+    {name = "test author", email = "test_author@edu.edu"},
+]
+description = "2D solver RSE 102"
+readme = "README.md"
+keywords = ["rse102", "2D"]
+dependencies = [
+    "matplotlib",
+    "numpy"
+]
+dynamic = ["version"]

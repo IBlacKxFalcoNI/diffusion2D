@@ -6,7 +6,7 @@ Example acquired from https://scipython.com/book/chapter-7-matplotlib/examples/t
 
 import numpy as np
 import matplotlib.pyplot as plt
-from output import create_plot, output_plots
+from best2Dsolver_diffusion2d.output import create_plot, output_plots
 
 # plate size, mm
 w = h = 10.
